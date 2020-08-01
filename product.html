@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Product</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- link google font -->
+    <link href="https://fonts.googleapis./css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+        rel="stycomlesheet">
+    <!-- link font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header >
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo shop" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItemts">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="product.html">Sản Phẩm</a></li>
+                        <li><a href="#">Tin Tức</a></li>
+                        <li><a href="account.html">Đăng Nhập</a></li>
+                        <li>
+                            <form action="" class="form-search ">
+                               
+                                <input type="text" class="input-search input-searchs" placeholder="Nhập từ khóa...">
+                                <a href=""><i class="fa fa-search"></i></a>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="" width="30px" height="30px" class="carticon">
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menuToggle()">
+            </div>
+        </div>
+    </header>
+   
+    <!-- Featured Product -->
+    <main class="main">
+        <!-- start san pham noi bat -->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Tất cả sản phẩm</h2>
+                <select name="" id="">
+                    <option value="">Lọc Sản Phẩm</option>
+                    <option value=""> Giá Tăng Dần</option>
+                    <option value=""> Giá Giảm Dần</option>
+                    <option value=""> Sản Phẩm Mới Nhất</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-1.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-2.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-3.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-4.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-5.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-6.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-7.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-8.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-9.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-10.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-11.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="products">
+                        <a href=""><img src="images/product-12.jpg" alt="San Pham 1"></a>
+                        <h4>San Pham 1</h4>
+                        <div class="raiting">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>50.000 VND</p>
+                    </div>
+                    <div class="viewdetails">
+                        <a href="" class="btn">Chi Tiết</a>
+                        <a href="" class="btn"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+        <!-- end sản phẩm nổi bật -->
+        
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Tải ứng dụng Shop Red</h3>
+                        <p>Vui lòng tải ứng dụng trên CH Play hoặc AppStore</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png" alt="">
+                        <p>Hân hạnh là nơi đáng tin cậy của khách hàng</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Userfull Links</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Zalo</li>
+                            <li>Youtube</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follows us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Zalo</li>
+                            <li>Youtube</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Cao Van Thanh Tuan</p>
+            </div>
+        </div>
+    </footer>
+<!-- js cho menu -->
+<script src="public/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account | Red Shop</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- link google font -->
+    <link href="https://fonts.googleapis./css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+        rel="stycomlesheet">
+    <!-- link font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header >
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo shop" width="125px" >
+                </div>
+                <nav>
+                    <ul id="MenuItemts">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="product.html">Sản Phẩm</a></li>
+                        <li><a href="#">Tin Tức</a></li>
+                        <li><a href="account.html">Đăng Nhập</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="" width="30px" height="30px">
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menuToggle()">
+            </div>
+        </div>
+    </header>
+
+   
+   
+    <!-- account -->
+    <main class="main">
+       <div class="account-page">
+           <div class="container">
+               <div class="row">
+                   <div class="col-2">
+                       <img src="images/image1.png" alt="" width="100%">
+                   </div>
+                   <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Đăng Nhập</span>
+                            <span onclick="register()">Đăng Ký</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form id="LoginForm">
+                            <input type="text" placeholder="Nhập họ tên">
+                            <input type="password" placeholder="Nhập mật khẩu">
+                            <a href="">Nhớ mật khẩu</a>
+                            <button class="btn">Đăng Nhập</button>
+                        </form>
+
+                        <form id="RegForm">
+                            <input type="text" placeholder="Nhập họ tên">
+                            <input type="email" placeholder="Nhập Email">
+                            <input type="password" placeholder="Nhập mật khẩu">
+                            <input type="password" placeholder="Nhập lại mật khẩu">
+                            <button class="btn">Đăng Ký</button>
+                        </form>
+                    </div>
+                </div>
+               </div>
+           </div>
+       </div>
+        
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Tải ứng dụng Shop Red</h3>
+                        <p>Vui lòng tải ứng dụng trên CH Play hoặc AppStore</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png" alt="">
+                        <p>Hân hạnh là nơi đáng tin cậy của khách hàng</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Userfull Links</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Zalo</li>
+                            <li>Youtube</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follows us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Zalo</li>
+                            <li>Youtube</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Cao Van Thanh Tuan</p>
+            </div>
+        </div>
+    </footer>
+<!-- js cho menu -->
+<script src="public/js/main.js"></script>
+<script>
+    // Js for toggle form
+var LoginForm = document.getElementById("LoginForm");
+var RegForm = document.getElementById("RegForm");
+var Indicator = document.getElementById("Indicator");
+function register(){
+    RegForm.style.transform = "translateX(0px)";
+    LoginForm.style.transform = "translateX(0px)";
+    Indicator.style.transform = "translateX(100px)";
+}
+function login(){
+    RegForm.style.transform = "translateX(300px)";
+    LoginForm.style.transform = "translateX(300px)";
+    Indicator.style.transform = "translateX(0px)";
+}
+</script>
+</body>
+
+</html>

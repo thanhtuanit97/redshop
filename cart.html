@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Red Shop</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- link google font -->
+    <link href="https://fonts.googleapis./css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+        rel="stycomlesheet">
+    <!-- link font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header >
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo shop" width="125px" >
+                </div>
+                <nav>
+                    <ul id="MenuItemts">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="product.html">Sản Phẩm</a></li>
+                        <li><a href="#">Tin Tức</a></li>
+                        <li><a href="account.html">Đăng Nhập</a></li>
+                        <li>
+                            <form action="" class="form-search ">
+                               
+                                <input type="text" class="input-search input-searchs"  placeholder="Nhập từ khóa...">
+                                <a href=""><i class="fa fa-search"></i></a>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="" width="30px" height="30px" class="carticon">
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menuToggle()">
+            </div>
+        </div>
+    </header>
+
+    
+   
+    <!-- gio hang -->
+    <main class="main">
+        <div class="title ">
+            <h3>Giỏ Hàng Của Bạn</h3>
+            <p style="color: red; font-style: italic;"> *Vui lòng kiểm tra lại giỏ hàng trước khi thanh toán.</p>
+        </div>
+        <div class="small-container cart-page">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sản Phẩm</th>
+                        <th>Số Lượng</th>
+                        <th>Thành Tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/buy-1.jpg" alt="">
+                                <div class="infor">
+                                    <p>Ao Thun Nam</p>
+                                    <small>Price : 50.00 VND</small><br>
+                                    <a href="">Xóa</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td> 50.000 VND</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/buy-2.jpg" alt="">
+                                <div class="infor">
+                                    <p>Ao Thun Nam</p>
+                                    <small>Price : 50.00 VND</small><br>
+                                    <a href="">Xóa</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td> 50.000 VND</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/buy-3.jpg" alt="">
+                                <div class="infor">
+                                    <p>Ao Thun Nam</p>
+                                    <small>Price : 50.00 VND</small><br>
+                                    <a href="">Xóa</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td> 50.000 VND</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="images/buy-3.jpg" alt="">
+                                <div class="infor">
+                                    <p>Ao Thun Nam</p>
+                                    <small>Price : 50.00 VND</small><br>
+                                    <a href="">Xóa</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td> 50.000 VND</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="total-price">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Tổng Tiền :</td>
+                            <td>210.00 VND</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="checkout.html"><button class="btn-checkout"> Thanh Toán</button></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Tải ứng dụng Shop Red</h3>
+                        <p>Vui lòng tải ứng dụng trên CH Play hoặc AppStore</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png" alt="">
+                        <p>Hân hạnh là nơi đáng tin cậy của khách hàng</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Userfull Links</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Zalo</li>
+                            <li>Youtube</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follows us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Zalo</li>
+                            <li>Youtube</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Cao Van Thanh Tuan</p>
+            </div>
+        </div>
+    </footer>
+<!-- js cho menu -->
+<script src="public/js/main.js"></script>
+</body>
+
+</html>
